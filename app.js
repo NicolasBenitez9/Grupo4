@@ -11,6 +11,9 @@ app.get('/', function (req, res){
 app.get('/carrito', function (req, res){
 res.sendFile(path.join(__dirname, '/views/carrito.html'));
 });
+app.get('/register', function (req, res){
+    res.sendFile(path.join(__dirname, '/views/register.html'));
+    });
 app.use('/public', express.static(path.join(__dirname, 'public')));
         
 app.listen(3004, () => console.log('Esto fue exitoso'));
