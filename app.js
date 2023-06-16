@@ -8,5 +8,9 @@ app.get('/', function (req, res){
     res.sendFile(path.join(__dirname, '/views/index.html'));
     });
     
-
-app.listen(3003, () => console.log('Esto fue exitoso'));
+app.get('/carrito', function (req, res){
+res.sendFile(path.join(__dirname, '/views/carrito.html'));
+});
+app.use('/public', express.static(path.join(__dirname, 'public')));
+        
+app.listen(3004, () => console.log('Esto fue exitoso'));
