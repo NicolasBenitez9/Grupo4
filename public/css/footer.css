@@ -2,6 +2,7 @@
     background-color: #B0DEE4;
     width: 100%;
     opacity: 0.9;
+    background-image: url("/img/fondo_marcas.png");
 
 }
 
@@ -9,18 +10,17 @@
     text-align: center;
     font-family: Architects Daughter;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 33px;
     letter-spacing: 1px;
-    opacity: 0.9;
-    color: white;
+    color:#165A7A;
+    ;
     }
 
 .email {
     text-decoration: none;
-    color: white;
-    
-    opacity: 0.9;
+    color: #165A7A;
+  
    } 
 
 ul {
@@ -42,5 +42,10 @@ ul {
      box-sizing: border-box;
      margin: auto;
      margin-bottom: 2%;
+     }
+
+     .socialmedia {
+    font-size: 1.3rem;
+    letter-spacing: 10px;   
      }
 
