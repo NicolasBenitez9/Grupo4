@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/public/css/register.css">
+    <script scr="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"></script>
+</head>
+<body>
+    
+    <header>
+
+    </header>
+    <main>
+      <form action="/registro" method="POST" class="formulario">
+            
+        <br>
+        <input type="text" placeholder="nombre y apellido" class="nombre">
+        <input type="text" placeholder="nombre de usuario" class="nombre" >
+        <input type="email" placeholder="E-mail" class="nombre">
+        
+        <h4 class="fechaa">Fecha de nacimiento</h4>
+
+        <input type="date" class="fecha">
+      
+        <input type="text" placeholder="domicilio" class="nombre" >
+        
+        <h4 class="perfil">Perfil De Usuario</h4>
+        <label> Comprador</label>
+        <input type= "radio" name="opcion" value="comprador" checked>
+        <label> Vendedor</label>
+        <input type="radio" name="opcion" value="vendedor">
+        
+        <h4 class="intereses">Intereses</h4>
+        <label>Electro</label>
+        <input type="checkbox" name="combo"value="Electro" checked/>
+        
+        <label>Moda</label>
+        <input type="checkbox" name="combo" value="Moda" />
+        <label>Hogar</label>
+        <input type="checkbox" name="combo" value="Hogar" />
+        <label>Jugueteria</label>
+        <input type="checkbox" name="combo" value="Jugueteria" />
+        <label>Vida sana</label>
+        <input type="checkbox" name="combo" value="Vida Sana" />
+</form>
+    </main>
+    <footer>
+      
+    </footer>
+</body>
+</html>
