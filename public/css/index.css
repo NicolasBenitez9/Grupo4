@@ -1,19 +1,11 @@
-.container-fluid{
-    height: 30vh;
-    background-position: center;
+.home{
+    background-image: url("/img/imgprin-home.jpg");
+    }
+
+.fondo{
+    background-image: linear-gradient(black,white);
     background-repeat: no-repeat;
-    background-size: cover;
 }
-
-
-.logo{
-    height: 30vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
 .imagenes{
 	margin-top: 200px;
 	display: flex;
