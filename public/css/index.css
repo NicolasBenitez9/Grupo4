@@ -1,5 +1,8 @@
-.home{
+.inicio{
     background-image: url("/img/imgprin-home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
 .fondo{
@@ -7,10 +10,51 @@
     background-repeat: no-repeat;
 }
 .imagenes{
-	margin-top: 200px;
+	margin-top: 200%;
 	display: flex;
 	justify-content: center;
 
 }
 
+.logo {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.ubicacion{
+    margin-top: 150px;
+    border-top-color: #CC0000;
+    border-right-color: blue;
+    border-bottom-color: #00FF00;
+    border-left-color: #CCC;
+}
+
+.buscador{
+    background-position: center;
+    text-align: center;
+    background: hwb(0 100% 0%);
+    border-radius: 15px;
+    border: solid 2px #ccc;
+    height: 10em;
+    width: 40em;
+}
+
+.search{
+    background-position: center;
+    background: #B0DEE4;
+}
+
+
+.iconitos {
+    display: flex;
+    opacity: 0.8;
+      }
+
+.iconoheader {
+    width: 5vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 2%;
+    }
