@@ -2,20 +2,34 @@
 * {
     text-decoration: none;
 }
-body{
-background-image: url("../img/PlayaCaribe.jpg");
-background-size: 100%;
-}
-
-h4{
-margin-left: 40px;
-}
-
-.form{
-display: flex;
-flex-direction: column;
-
-}
+body {
+    background-image: url("../img/PlayaCaribe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  body::after {
+    content: '';
+    background: #333;
+    position: absolute;
+    width: calc(100vw + 30vw); 
+    height: calc(100% + 30vh); 
+    left: -15vw; 
+    top: -20vh; 
+    opacity: 0.5;
+    z-index: -1;
+  }
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  
 main{
     background-color: white;
     margin-top: 10%;

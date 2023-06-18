@@ -4,53 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEAGULL Project</title>
+    <script src="https://kit.fontawesome.com/a43628da3e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/public/css/index.css">
+    <link href="./CSS/footer.css" rel="stylesheet">
+    <link href="./CSS/index.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>SEAGULL Project</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img class="logo" src="/public/img/loguito.svg">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="En cualquier lugar del mundo" aria-label="Buscar">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
+  <header>
+    <div class="home">
+      <img src="/img/loguito.svg" alt="">
+    </div>
+  </header>
+
+  
+    </div>
+  </nav>
+  <div class="position-absolute top-70 start-50 translate-middle-x shadow-lg p-3 mb-5 bg-body rounded">
+    <label class="mx-5"> ¿En donde te encuentras? </label>
+    <form class="d-flex" role="search">
+      <input class="mx-auto" type="search" placeholder="En cualquier lugar del mundo" aria-label="Buscar">
+    </form>
+  </div>
+
+  <div class="imagenes">
+
+    <figure class="figure">
+      <img src="/img/img-home-colombia.jpg" class="figure-img img-fluid rounded" alt="...">
+      <button type="button" class="btn btn-lg btn-primary" disabled> BRASIL </button>
+    </figure>
+    <figure class="figure">
+      <img src="/img/img-home-arg.jpg" class="figure-img img-fluid rounded" alt="...">
+      <button type="button" class="btn btn-lg btn-primary" disabled> ARGENTINA </button>
+    </figure>
+    <figure class="figure">
+      <img src="/img/img-home-arg.jpg" class="figure-img img-fluid rounded" alt="...">
+      <button type="button" class="btn btn-lg btn-primary" disabled> ARGENTINA </button>
+    </figure>
+    
+  </div>
+
+  <div>
+    
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
+     
+     <!--- Código Caro-->
+    <footer class="finpagina">
+        <section class="final">
+            <a class="email" href="eagull@gmail.com">eagull@gmail.com</a>
+            <div class="socialmedia">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <p>©Copyright Seagull. All rights reserved.</p>
+        </section>
+    
+        <div class="sponsor">
+            <img src="img/billabongtest.png" class="marca" alt="billabong">
+            <img src="img/roxytest.png" class="marca" alt="roxy">
+            <img src="img/quicksilvertest.png" class="marca" alt="quicksilver">
+    
+        </div>
+    </footer>
+
+    </body>
 </html>

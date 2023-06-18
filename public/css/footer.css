@@ -1,0 +1,50 @@
+.finpagina {
+    background-color: #B0DEE4;
+    width: 100%;
+    opacity: 0.9;
+    background-image: url("/img/fondo_marcas.png");
+
+}
+
+.final {
+    text-align: center;
+    font-family: Architects Daughter;
+    font-size: 15px;
+    
+    line-height: 33px;
+    letter-spacing: 1px;
+    color:#061D28;
+    }
+
+.email {
+    text-decoration: none;
+    color: #061D28;
+  
+   } 
+
+ul {
+    list-style-type: none;
+}
+
+.sponsor{
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+     }
+ 
+     .marca {
+     width: 20vw;
+     border-radius: 5px;
+     box-sizing: border-box;
+     margin: auto;
+     margin-bottom: 2%;
+     }
+
+     .socialmedia {
+    font-size: 1.3rem;
+    letter-spacing: 10px;   
+     }
+
