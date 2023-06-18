@@ -1,6 +1,22 @@
-.home{
+* {
+    box-sizing: border-box;
+}
+
+.inicio{
     background-image: url("/img/imgprin-home.jpg");
-    }
+    display: flex;
+    align-items: flex-start;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+   
+}
+
+.logo {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .fondo{
     background-image: linear-gradient(black,white);
@@ -12,5 +28,18 @@
 	justify-content: center;
 }
 
+.iconitos {
+    display: flex;
+    opacity: 0.8;
+      }
 
+.iconoheader {
+    width: 5vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 2%;
+    }
+
+   
 
