@@ -1,0 +1,44 @@
+h1{
+    font-family: 'Klee One', cursive;
+    font-weight: normal;
+    font-size: 50;
+    color: #137DB0;
+  }
+  
+  h2{
+    font-family: 'Klee One', cursive;
+    font-weight: normal;
+    font-size: 50;
+    color: #165A7A;
+  }
+  
+  .navbar-light {
+    background-color: #666666;
+  }
+  
+  #Miboton{
+    background-color: #1A545C;
+    font-family: 'Klee One', cursive
+  }
+
+  #mediospago{
+    font-family: 'Roboto Mono', monospace;
+  }
+
+ .parrafo-1{
+  font-family: 'Klee One', cursive;
+  color: #165A7A;
+ }
+
+ .parrafo-2{
+  font-family: 'Roboto Mono', monospace;
+  color: #696A6C;
+  font-size: 16px;
+ }
+
+ .row{
+  font-family: 'Roboto Mono', monospace;
+  color: #696A6C;
+  font-size: 16px;
+ }
+ 
