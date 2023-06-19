@@ -28,19 +28,11 @@
     border-left-color: #CCC;
 }
 
-h1{
-    font-family: 'Klee One', cursive;
-    font-size: 16px;
-  }
-
-.buscador{
-    background-position: center;
-    text-align: center;
-    background: hwb(0 100% 0%);
-
-    height: 10em;
+.cuadro{
+    border: solid black;
     width: 40em;
-    opacity: 0.8;
+    margin-left: 28em;
+    margin-top: 3em;
 }
 .search input[type="search"] {
     font-family: 'Klee One', cursive;
@@ -55,9 +47,8 @@ h1{
   }
   
 
-.search{
-    background-position: center;
-    background: #B0DEE4;
+.d-flex{
+    width: 30em;
 }
 
 #Botones{
