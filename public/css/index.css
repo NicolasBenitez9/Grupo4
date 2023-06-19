@@ -26,6 +26,17 @@
     border-left-color: #CCC;
 }
 
+.cuadro{
+    border: solid black;
+    width: 40em;
+    margin-left: 28em;
+    margin-top: 3em;
+}
+
+.d-flex{
+    width: 30em;
+}
+
 .buscador{
     background-position: center;
     text-align: center;
