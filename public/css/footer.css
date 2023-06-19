@@ -10,7 +10,6 @@
     text-align: center;
     font-family: Architects Daughter;
     font-size: 15px;
-    
     line-height: 33px;
     letter-spacing: 1px;
     color:#061D28;
@@ -47,3 +46,16 @@ ul {
     letter-spacing: 10px;   
      }
 
+     @media (min-width: 769px) {
+        .marca {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media (min-width: 361px) {
+        .marca {
+            display: none;
+            justify-content: center;
+        }
+            }

@@ -1,26 +1,22 @@
 .inicio{
     background-image: url("/img/imgprin-home.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    }
+    opacity: 0.8;
+ 
+       }
 
 .fondo{
     background-image: linear-gradient(black,white);
     background-repeat: no-repeat;
 }
-.imagenes{
-	margin-top: 200%;
-	display: flex;
-	justify-content: center;
 
-}
 
 .logo {
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    width: 30%;
+    height: 30%;
+    margin-left: 10%;
+    }
 
 .ubicacion{
     margin-top: 150px;
@@ -38,6 +34,7 @@
     border: solid 2px #ccc;
     height: 10em;
     width: 40em;
+    opacity: 0.8;
 }
 
 .search{
@@ -45,11 +42,27 @@
     background: #B0DEE4;
 }
 
+.imagenes{
+    border: none;
+    }
+
+.figure {
+     padding: 2%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.linkpais {
+    border:#00FF00;
+}
+    
 
 .iconitos {
     display: flex;
-    opacity: 0.8;
-      }
+    justify-content: end;
+    background-color: rgba(0,0,0, 0.1);
+    
+}
 
 .iconoheader {
     width: 5vw;
@@ -57,4 +70,20 @@
     box-sizing: border-box;
     margin: auto;
     margin-bottom: 2%;
+    }
+
+    @media (min-width: 769px) {
+        .imagenes {
+            display: flex;
+            justify-content: center;
+        }
+           }
+
+    @media (min-width: 361px) {
+        .imagenes {
+            display: flex;
+            justify-content: center;
+
+        }
+        
     }
