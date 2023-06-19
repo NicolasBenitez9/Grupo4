@@ -16,6 +16,10 @@ app.get('/', function (req, res){
         app.get('/register', function (req, res){
             res.sendFile(path.join(__dirname, '/views/register.html'));
             });
+            app.get('/login', function (req, res){
+                res.sendFile(path.join(__dirname, '/views/login.html'));
+                });
       
 
 app.listen(3004, () => console.log('Esto fue exitoso'));
+

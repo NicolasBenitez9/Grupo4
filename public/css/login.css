@@ -1,0 +1,92 @@
+.iconitos {
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0,0,0, 0.1);
+}
+
+.iconoheader {
+    width: 5vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 2%;
+    }
+    * {
+        text-decoration: none;
+      }
+      
+      body {
+        background-image: url("/img/fondo_inicio_sesion.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+      }
+      
+      body::after {
+        content: '';
+        background: #333;
+        position: absolute;
+        width: calc(100vw + 30vw);
+        height: calc(100% + 30vh);
+        left: -30vw;
+        top: -20vh;
+        opacity: 0.4;
+        z-index: -1;
+      }
+      
+     
+      .contenedor_iconos {
+        margin-left: 144vh;
+      }
+      
+      .iconos {
+        width: 50px;
+        height: 50px;
+      }
+      
+      .contenedor_form {
+        border-radius: 10px;
+        margin: 10px;
+      }
+      
+      .div_form {
+        background-color: white;
+        margin-top: 5%;
+        margin-left: 37%;
+        height: 70vh;
+        width: 400px;
+        border-radius: 10px;
+        border: 24px solid lightblue;
+      }
+      
+      .form {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .icono_form {
+        width: 100px;
+        height: 90px;
+        margin-left: 35%;
+      }
+      
+      .nombre {
+        margin-left: 4vw;
+        padding: 12px;
+        width: 250px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+      
+      .fecha {
+        margin-left: 3vw;
+        padding: 5px;
+        width: 200px;
+        margin-bottom: 15px;
+      }
+      
