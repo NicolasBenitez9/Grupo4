@@ -49,7 +49,7 @@ TABLEROS DE TRABAJO:
 
 https://www.figma.com/file/gPYwpR96zUNTCwFEL9RjaN/Tablero-de-Trabajo?type=whiteboard&t=RfnmPMmbjsLDxPe4-0
 https://trello.com/b/qeQJ1PBP/dh-grupo-4
-
+https://seagull-project.onrender.com
 
 WIREFRAMES:
 
