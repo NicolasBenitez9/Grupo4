@@ -1,0 +1,6 @@
+<figure class="figure">
+      <img src="\img\img-home-colombia.jpg" class="figure-img img-fluid rounded" alt="Responsive image">
+      <div class="boton de compra text-center"> 
+        <button class="btn btn-primary">COLOMBIA</button>
+    </div>
+   

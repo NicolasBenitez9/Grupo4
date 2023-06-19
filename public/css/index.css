@@ -1,16 +1,116 @@
-.home{
-    background-image: url("/img/imgprin-home.jpg");
-    }
+
+
+.inicio{
+    background-image: url("/img/olashome.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+ 
+       }
 
 .fondo{
     background-image: linear-gradient(black,white);
     background-repeat: no-repeat;
 }
-.imagenes{
-	margin-top: 200px;
-	display: flex;
-	justify-content: center;
 
+
+.logo {
+    width: 30%;
+    height: 30%;
+    margin-left: 10%;
+    }
+
+.ubicacion{
+    margin-top: 150px;
+    border-top-color: #CC0000;
+    border-right-color: blue;
+    border-bottom-color: #00FF00;
+    border-left-color: #CCC;
+}
+
+h1{
+    font-family: 'Klee One', cursive;
+    font-size: 16px;
+  }
+
+.buscador{
+    background-position: center;
+    text-align: center;
+    background: hwb(0 100% 0%);
+
+    height: 10em;
+    width: 40em;
+    opacity: 0.8;
+}
+.search input[type="search"] {
+    font-family: 'Klee One', cursive;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .search .form-inline label {
+    font-family: 'Klee One', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+
+.search{
+    background-position: center;
+    background: #B0DEE4;
+}
+
+#Botones{
+    color: #061D28;
+    background-color: #B0DEE4;
+    border: #FFFFFF;
+    font-family: 'Klee One', cursive;
+    font-size: 16px;
+
+}
+.imagenes{
+    border: red;
+    }
+
+.figure {
+     padding: 2%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.linkpais {
+    border:#00FF00;
+}
+    
+
+.iconitos {
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0,0,0, 0.1);
+    
 }
 
 
+.iconoheader {
+    width: 5vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 2%;
+    }
+
+    @media (min-width: 769px) {
+        .imagenes {
+            display: flex;
+            justify-content: center;
+        }
+           }
+
+    @media (min-width: 361px) {
+        .imagenes {
+            display: flex;
+            justify-content: center;
+
+        }
+        
+    }
