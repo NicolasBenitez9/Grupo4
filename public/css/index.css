@@ -60,8 +60,7 @@
 
 }
 .imagenes{
-    border: red;
-    }
+      }
 
 .figure {
      padding: 2%;
@@ -78,7 +77,7 @@
     display: flex;
     justify-content: end;
     background-color: rgba(0,0,0, 0.1);
-    
+    opacity: 0.7;
 }
 
 

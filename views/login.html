@@ -15,36 +15,53 @@
 <body>
     <header>
         <nav class="iconitos">
-            <a href="#Creá tu cuenta"><img src="/img/icono-tabla.svg" class="iconoheader" alt="login"></a>
-            <a href="#Mis Compras"><img src="/img/carritocompra.svg" class="iconoheader" alt="login"></a>
-            <a href="#Mis Compras"><img src="/img/icono-manito.svg" class="iconoheader" alt="login"></a>
+            <a href="/register"><img src="/img/icono-tabla.svg" class="iconoheader" alt="login"></a>
+            <a href="/carrito"><img src="/img/carritocompra.svg" class="iconoheader" alt="login"></a>
+            <a href="/login"><img src="/img/icono-manito.svg" class="iconoheader" alt="login"></a>
             <a href="#Donde estamos"><img src="/img/icono-furgoneta.svg" class="iconoheader" alt="login"></a>
             <a href="#Donde Surfar"><img src="/img/icono-surfer.svg" class="iconoheader" alt="login"></a>
         </nav>
         
         <main>
         
-            <div class="contenedor_form">
+            <section class="contenedor_form">
                 <div class="div_form">
-                    <form action="/registro" method="POST" class="formulario">
-                                                <img src="/img/icono-tabla.svg" class="icono_form">
-                        <P class="text-center">INICIAR SESION</P>
+                    <form action="/login" method="POST" class="formulario">
+                    <img src="/img/icono-tabla.svg" class="icono_form">
+
+                        <P class="iniciosesion">INICIAR SESION</P>
                    
-                        <input type="email" placeholder="E-mail" class="nombre">
+                        <input type="email" placeholder="E-mail" class="input">
         
-                        <input type="password" placeholder="Contraseña" class="nombre">
-                         <br>
-                         <br>
-                    
+                        <input type="password" placeholder="Contraseña" class="input">
+
+                        
                         <div class="text-center">
                             <button type="button"  id= "Botones" class="btn btn-sm btn-primary" disabled> INICIAR SESION </button>
-                          </div>
+                        </div>
 
                     </form>
                 </div>
-            </div>
+            </section>
         </main>
+        <footer class="finpagina">
+            <div class="sponsor">
+              <img src="\img\billabongtest2.png" class="marca" alt="billabong">
+              <img src="\img\roxytest2.png" class="marca" alt="roxy">
+              <img src="\img\quicksilvertest2.png" class="marca" alt="quicksilver">
+      
+          </div>
+              <section class="final">
+                  <div class="socialmedia">
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  <a class="email" href="seagull@gmail.com">seagull@gmail.com</a>
+                  <p>©Copyright Seagull. All rights reserved.</p>
+              </section>
+          
         
+          </footer>
         </body>
         
         </html>
