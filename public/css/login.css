@@ -87,8 +87,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        border:
-             }
+      }
 
         @media (min-width: 769px) {
             .icono_form {
