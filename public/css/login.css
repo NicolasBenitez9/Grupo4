@@ -1,7 +1,10 @@
+* { box-sizing: border-box }
+
 .iconitos {
     display: flex;
     justify-content: end;
-    background-color: rgba(0,0,0, 0.1);
+    background-color: rgba(0,0,0, 0.2);
+    width: 100%;
 }
 
 .iconoheader {
@@ -11,32 +14,23 @@
     margin: auto;
     margin-bottom: 2%;
     }
+
     * {
         text-decoration: none;
       }
       
-      body {
-        background-image: url("/img/fondo_inicio_sesion.jpeg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        overflow: hidden;
-        margin: 0;
-      }
+     body {
+       background-image: url("/img/fondo_inicio_sesion.jpeg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       position: relative;
+       overflow: hidden;
+       margin: 0;
+     }
+            
       
-      body::after {
-        content: '';
-        background: #333;
-        position: absolute;
-        width: calc(100vw + 30vw);
-        height: calc(100% + 30vh);
-        left: -30vw;
-        top: -20vh;
-        opacity: 0.4;
-        z-index: -1;
-      }
-      
+    
      
       .contenedor_iconos {
         margin-left: 144vh;
@@ -49,24 +43,33 @@
       
       .contenedor_form {
         border-radius: 10px;
-        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        margin: auto;
+       
       }
       
       .div_form {
         background-color: white;
-        margin-top: 5%;
-        margin-left: 37%;
         height: 70vh;
-        width: 400px;
+        width: 50vw;
         border-radius: 10px;
         border: 24px solid lightblue;
-      }
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
+             }
       
       .form {
         display: flex;
         flex-direction: column;
         position: relative;
         z-index: 1;
+        border: dashed red;
+        
       }
       
       .icono_form {
@@ -77,16 +80,13 @@
       
       .nombre {
         margin-left: 4vw;
-        padding: 12px;
-        width: 250px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-      }
+        width: 25vw;
+        margin-bottom: 1vw;
+        margin-top: 1vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+             }
       
-      .fecha {
-        margin-left: 3vw;
-        padding: 5px;
-        width: 200px;
-        margin-bottom: 15px;
-      }
-      
+             
