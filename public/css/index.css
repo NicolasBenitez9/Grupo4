@@ -1,37 +1,68 @@
-* {
-    box-sizing: border-box;
-}
-
 .inicio{
     background-image: url("/img/imgprin-home.jpg");
-    display: flex;
-    align-items: flex-start;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;   
-   
-}
-
-.logo {
-    background-position: left;
-    background-repeat: no-repeat;
     background-size: cover;
-}
+    opacity: 0.8;
+ 
+       }
 
 .fondo{
     background-image: linear-gradient(black,white);
     background-repeat: no-repeat;
 }
-.imagenes{
-	margin-top: 200px;
-	display: flex;
-	justify-content: center;
+
+
+.logo {
+    width: 30%;
+    height: 30%;
+    margin-left: 10%;
+    }
+
+.ubicacion{
+    margin-top: 150px;
+    border-top-color: #CC0000;
+    border-right-color: blue;
+    border-bottom-color: #00FF00;
+    border-left-color: #CCC;
 }
+
+.buscador{
+    background-position: center;
+    text-align: center;
+    background: hwb(0 100% 0%);
+    border-radius: 15px;
+    border: solid 2px #ccc;
+    height: 10em;
+    width: 40em;
+    opacity: 0.8;
+}
+
+.search{
+    background-position: center;
+    background: #B0DEE4;
+}
+
+.imagenes{
+    border: none;
+    }
+
+.figure {
+     padding: 2%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.linkpais {
+    border:#00FF00;
+}
+    
 
 .iconitos {
     display: flex;
-    opacity: 0.8;
-      }
+    justify-content: end;
+    background-color: rgba(0,0,0, 0.1);
+    
+}
 
 .iconoheader {
     width: 5vw;
@@ -41,5 +72,18 @@
     margin-bottom: 2%;
     }
 
-   
+    @media (min-width: 769px) {
+        .imagenes {
+            display: flex;
+            justify-content: center;
+        }
+           }
 
+    @media (min-width: 361px) {
+        .imagenes {
+            display: flex;
+            justify-content: center;
+
+        }
+        
+    }
