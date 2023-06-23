@@ -1,30 +1,20 @@
+const productosRoutes = require ('./routes/productosRoutes');
+
 const express = require('express');
 
 const app = express ();
 
 const path = require ('path');
 
+app.use(express.static(path.resolve(__dirname,'./public')))
 
-app.use(express.static(path.join(__dirname,'./public')))
+app.set ('view engine', 'ejs')
 
-app.get('/', function (req, res){
-    res.sendFile(path.join(__dirname, '/views/index.html'));
-    });
+app.use ('/', productosRoutes);
 
-app.get('/carrito', function (req, res){
-     res.sendFile(path.join(__dirname, '/views/carrito.html'));
-        });
-       
-app.get('/register', function (req, res){
-    res.sendFile(path.join(__dirname, '/views/register.html'));
-            });
-            app.get('/login', function (req, res){
-                res.sendFile(path.join(__dirname, '/views/login.html'));
-                });
-      
-app.get('/producto', function (req, res){
-    res.sendFile(path.join(__dirname, '/views/producto.html'));
-        });
+app.use ('*', function (req, res){
+res.send("ruta erronea")
+})
 
 app.listen(3004, () => console.log('Esto fue exitoso'));
 
