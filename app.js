@@ -1,11 +1,11 @@
-const productosRoutes = require ('./routes/productosRoutes');
+const productsRoutes = require ('./routes/productosRoutes');
 
 
 const express = require('express');
 const path = require ('path');
 const app = express ();
 
-app.use ('/', productosRoutes);
+app.use ('/', productsRoutes);
 
 app.use ('*', function (req, res){
           res.send("ruta erronea")
