@@ -28,11 +28,19 @@
     border-left-color: #CCC;
 }
 
-.cuadro{
-    border: solid black;
+h1{
+    font-family: 'Klee One', cursive;
+    font-size: 16px;
+  }
+
+.buscador{
+    background-position: center;
+    text-align: center;
+    background: hwb(0 100% 0%);
+
+    height: 10em;
     width: 40em;
-    margin-left: 28em;
-    margin-top: 3em;
+    opacity: 0.8;
 }
 .search input[type="search"] {
     font-family: 'Klee One', cursive;
@@ -47,8 +55,9 @@
   }
   
 
-.d-flex{
-    width: 30em;
+.search{
+    background-position: center;
+    background: #B0DEE4;
 }
 
 #Botones{
@@ -57,7 +66,11 @@
     border: #FFFFFF;
     font-family: 'Klee One', cursive;
     font-size: 16px;
+
 }
+.imagenes{
+    border: red;
+    }
 
 .figure {
      padding: 2%;
@@ -74,7 +87,7 @@
     display: flex;
     justify-content: end;
     background-color: rgba(0,0,0, 0.1);
-    opacity: 0.7;
+    
 }
 
 
