@@ -29,8 +29,7 @@
 .cuadro {
     border: none;
     width: 40em;
-    margin-left: 28em;
-    margin-top: 3em;
+    opacity: 0.8;
 }
 
 .search input[type="search"] {
@@ -56,7 +55,11 @@
     border: #FFFFFF;
     font-family: 'Klee One', cursive;
     font-size: 16px;
+
 }
+.imagenes{
+    border: red;
+    }
 
 .figure {
     padding: 2%;

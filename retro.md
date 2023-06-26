@@ -8,7 +8,7 @@ Algunos de los puntos discutidos son los siguientes:
 
 - Qué hicimos bien?
 En momentos difíciles de la etapa supimos coordinarnos bien y trabajar en conjunto para solucionar las dificultades.
-Cada uno cumplió un rol diferente respetando al otro y logramos cumplir con los objectivos.
+Cada uno cumplió un rol diferente respetando al otro y logramos cumplir con los objetivos.
 
 - Qué puede mejorar?
 Nos viene costando el tema de la organización, sobre todo el coincidir horarios para debatir ideas o ayudarnos con alguna complicación.
