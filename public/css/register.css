@@ -7,6 +7,7 @@ body {
   background-position: center;
   position: relative;
   overflow: hidden;
+  overflow-y: scroll;
   margin: 0;
 }
 
