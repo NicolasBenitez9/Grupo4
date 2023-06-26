@@ -1,15 +1,13 @@
-
-
-.inicio{
+.inicio {
     background-image: url("/img/olashome.png");
     background-position: center;
     background-size: cover;
     opacity: 0.8;
- 
-       }
 
-.fondo{
-    background-image: linear-gradient(black,white);
+}
+
+.fondo {
+    background-image: linear-gradient(black, white);
     background-repeat: no-repeat;
 }
 
@@ -18,9 +16,9 @@
     width: 30%;
     height: 30%;
     margin-left: 10%;
-    }
+}
 
-.ubicacion{
+.ubicacion {
     margin-top: 150px;
     border-top-color: #CC0000;
     border-right-color: blue;
@@ -28,30 +26,31 @@
     border-left-color: #CCC;
 }
 
-.cuadro{
-    border: solid black;
+.cuadro {
+    border: none;
     width: 40em;
     margin-left: 28em;
     margin-top: 3em;
 }
+
 .search input[type="search"] {
     font-family: 'Klee One', cursive;
     font-size: 16px;
     color: #333333;
-  }
-  
-  .search .form-inline label {
+}
+
+.search .form-inline label {
     font-family: 'Klee One', cursive;
     font-weight: bold;
     text-transform: uppercase;
-  }
-  
+}
 
-.d-flex{
+
+.d-flex {
     width: 30em;
 }
 
-#Botones{
+#Botones {
     color: #061D28;
     background-color: #B0DEE4;
     border: #FFFFFF;
@@ -60,20 +59,20 @@
 }
 
 .figure {
-     padding: 2%;
+    padding: 2%;
     max-width: 100%;
     justify-content: center;
 }
 
 .linkpais {
-    border:#00FF00;
+    border: #00FF00;
 }
-    
+
 
 .iconitos {
     display: flex;
     justify-content: end;
-    background-color: rgba(0,0,0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     opacity: 0.7;
 }
 
@@ -84,20 +83,20 @@
     box-sizing: border-box;
     margin: auto;
     margin-bottom: 2%;
+}
+
+@media (min-width: 769px) {
+    .imagenes {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 361px) {
+    .imagenes {
+        display: flex;
+        justify-content: center;
+
     }
 
-    @media (min-width: 769px) {
-        .imagenes {
-            display: flex;
-            justify-content: center;
-        }
-           }
-
-    @media (min-width: 361px) {
-        .imagenes {
-            display: flex;
-            justify-content: center;
-
-        }
-        
-    }
+}

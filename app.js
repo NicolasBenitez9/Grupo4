@@ -1,6 +1,7 @@
-const productosRoutes = require ('./routes/productosRoutes');
-
 const express = require('express');
+
+const productosRoutes = require('./src/routes/productosRoutes');
+const usersRoutes = require ('./src/routes/usersRoutes')
 
 const app = express ();
 
@@ -11,10 +12,11 @@ app.use(express.static(path.resolve(__dirname,'./public')))
 app.set ('view engine', 'ejs')
 
 app.use ('/', productosRoutes);
+app.use('/', usersRoutes); 
 
 app.use ('*', function (req, res){
 res.send("ruta erronea")
 })
 
-app.listen(3004, () => console.log('Esto fue exitoso'));
+app.listen(3002, () => console.log('Esto fue exitoso'));
 
