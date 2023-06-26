@@ -1,4 +1,5 @@
-const productsRoutes = require ('./routes/productosRoutes');
+const productsRoutes = require ('./src/routes/productsRoutes');
+const usersRoutes = require ('./src/routes/usersRoutes');
 
 
 const express = require('express');
@@ -6,6 +7,8 @@ const path = require ('path');
 const app = express ();
 
 app.use ('/', productsRoutes);
+
+app.use ('/', usersRoutes);
 
 app.use ('*', function (req, res){
           res.send("ruta erronea")

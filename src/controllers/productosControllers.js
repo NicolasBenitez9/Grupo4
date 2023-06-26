@@ -1,8 +1,8 @@
-const controlador =
+let productosController =
 {
-      product: (req,res) => {
+      producto: (req,res) => {
         res.send("Producto");
       }
 }
 
-module.exports = controlador;
+module.exports = productosController;
