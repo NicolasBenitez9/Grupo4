@@ -2,6 +2,7 @@ const express = require('express');
 
 const productosRoutes = require('./src/routes/productosRoutes');
 const usersRoutes = require ('./src/routes/usersRoutes')
+const mainRoutes = require('./src/routes/mainRoutes')
 
 const app = express ();
 
@@ -13,6 +14,7 @@ app.set ('view engine', 'ejs');
 
 app.use ('/', productosRoutes);
 app.use('/', usersRoutes); 
+app.use('/', mainRoutes);
 
 app.use ('*', function (req, res){
   res.send("ruta erronea")

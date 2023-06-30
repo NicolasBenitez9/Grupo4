@@ -1,7 +1,7 @@
 let productosController =
 {
       producto: (req,res) => {
-        res.send("Producto");
+        res.render("Producto");
       }
 }
 
